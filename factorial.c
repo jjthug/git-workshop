@@ -10,7 +10,7 @@ FIXED THE BUGS FOR GIT-WORKSHOP
 int main()
 {
     int n, i;
-    unsigned long long factorial = 1;
+    unsigned long long int factorial = 1;
 
     printf("Enter an integer: ");
     scanf("%d",&n);
@@ -23,7 +23,7 @@ int main()
 		// HERE IS THE BUG, CHANGE i<n to i<=n
         for(i=1; i<n; ++i)
         {
-            factorial *= i;
+            factorial*=i;
         }
         printf("Factorial of %d = %llu", n, factorial);
     }
