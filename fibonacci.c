@@ -26,7 +26,7 @@ main()
       else
       {
          next = first + second;
-         first = second;
+         first = sec;
          second = next;
       }
       printf("%d\n",next);
